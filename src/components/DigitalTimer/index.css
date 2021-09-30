@@ -1,0 +1,106 @@
+.app-container {
+  background-image: linear-gradient(to right, #defafe, #cffcf1);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.main-heading {
+  color: #0f172a;
+  font-weight: 600;
+  font-size: 24px;
+  font-family: Roboto;
+}
+.counter-container {
+  display: flex;
+}
+.timer-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  height: 300px;
+  width: 300px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+}
+.timer-value {
+  background-color: #fff;
+  border-radius: 40px;
+  width: 100px;
+  height: 90px;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-top: 20px;
+}
+.status {
+  color: #0f172a;
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 2px;
+}
+.controls-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+}
+.stop-reset-container {
+  display: flex;
+}
+.controls {
+  color: #1e293b;
+  font-size: 20px;
+  font-family: Roboto;
+}
+.controls-image {
+  height: 24px;
+  width: 24px;
+}
+.control-button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.control-input {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+.increase-decrease-container {
+  display: column;
+  justify-content: center;
+  align-items: center;
+}
+.increase-decrease-control {
+  display: flex;
+}
+
+.increase-decrease {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  color: #1e293b;
+  font-size: 26px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.set-limit {
+  background-color: #00d9f5;
+  border-radius: 10px;
+  color: #1e293b;
+  font-size: 24px;
+  margin: 5px;
+  width: 40px;
+  text-align: center;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+}
